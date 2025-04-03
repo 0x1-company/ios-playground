@@ -1,4 +1,4 @@
-PLATFORM_IOS = iOS Simulator,name=iPhone 16 Pro,OS=18.4
+PLATFORM_IOS = iOS Simulator,id=$(call udid_for,iPhone)
 
 bootstrap: secrets
 
