@@ -16,4 +16,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: open -a Simulator
+      - run: xcrun simctl list
       - run: make build
