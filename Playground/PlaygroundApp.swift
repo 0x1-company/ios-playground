@@ -4,7 +4,9 @@ import SwiftUI
 struct PlaygroundApp: App {
   var body: some Scene {
     WindowGroup {
-      ContentView()
+      NavigationStack {
+        ContentView()
+      }
     }
   }
 }
