@@ -15,4 +15,5 @@ jobs:
     runs-on: macos-15
     steps:
       - uses: actions/checkout@v4
+      - run: open -a Simulator
       - run: make build
